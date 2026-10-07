@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+td:nth-child(1), td:nth-child(2){
+    color:blue;
+}
+td:nth-child(4){
+    color:red;
+}
+td:nth-child(5){
+    color:purple;
+}
+th{
+    font-family: Arial;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+td {
+    white-space: pre-wrap;
+}
+/*FORMATTING*/
+.finding {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 8px;
+    text-align: left;
+    border-radius: 6px;
+}
+
+.finding strong {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.finding details {
+    margin-top: 8px;
+}
+
+.finding summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.packet-line {
+    padding: 4px 0;
+    font-family: monospace;
+    white-space: nowrap;
+}
+/**/
