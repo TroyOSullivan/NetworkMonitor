@@ -330,7 +330,7 @@ function capture(){
     const FILE_NAME = "Traffic-" + FILE_TIME + ".pcapng";
     //
 
-    const TWIN = path.join(DAY_FOLDER, "TWIN-", FILE_TIME);
+    const TWIN = path.join(DAY_FOLDER, "TWIN-" + FILE_TIME);
     if(!fs.existsSync(TWIN)){
         fs.mkdirSync(TWIN, {
             recursive: true
